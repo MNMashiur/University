@@ -81,8 +81,6 @@ The poster presents a structured analysis covering:
 **Section:** 3  
 **Group:** 4  
 
-**Members:**  
-- (Add names here)
 
 ---
 
