@@ -1,0 +1,52 @@
+Opening Story
+Assalamu Alaikum honorable board members, good afternoon.
+Before i start, i would like to share a short story about how we actually came up with this project idea.
+About two semester ago, when we were discussing and selecting out capstone topic at our Honorable Supervisor DR. Anisur Rahman sir's room, our assistant proctor sir came to the room and shared an incident. A student had been admitted to the university using a fake credit transfer certificate from another university. Unfortunately, the student was already admitted......Pause
+Then we realized how difficult and time consuming it can be to verify an academic certificate. 
+Then our supervisor sir suggested that we build something that could make certificate verification easier, faster and more reliable..... and that is where the idea of our project begin.
+
+
+Slide 1
+So, I am Mashiur Rahaman and these are my group members. Today we are presenting our capstone project titled "A hybrid Hyperledger fabric-IPFS framework for tamper detection and holder controlled privacy in academic certificate verification". 
+Our project focuses on making academic certificate verification secure, trustworthy and privacy aware by combining blockchain, IPFS and conventional database technology.
+
+
+Slide 2
+So, in this presentation, we will discuss the problem and motivation, then the existing research gaps, followed by our proposed framework. 
+After that, the other members will discuss the system architecture, security and privacy mechanism, results and finally the live demonstration of our working system.
+
+
+Slide 3
+Allow me to start with the main problem.
+Today, verifying an academic certificate can still mean trusting a phone call or email. 
+For example, when an employer receives an academic certificate, they usually cannot independently verify whether the certificate is authentic or not. They may need to contact the issuing authority and wait for confirmation. 
+This becomes more problematic at a large scale.
+The major stakeholders affected by this problem are universities, students, employers and examination boards.
+
+
+Slide 4
+Academic certificate forgery is a growing concern, specially in developing countries like Bangladesh.
+Traditional systems are vulnerable to manipulation, verification can be expensive and time consuming, fake certificate can be easily produced.
+So, the challenge is not just simply storing certificates digitally. We need a system that can prove whether a certificate has been tampered or not while protecting the students personal information.
+
+
+Slide 5
+When we looked at existing solutions, we identified several research gaps.
+For example, Ethereum based systems have high transection fees and scalability concern.
+Fully  on-chain storage is not privacy friendly because sensitive information may become permanently exposed.
+On the other hand, Centralized database have a single point of failure while many system lacks proper institutional and holder control over certificate data.
+
+
+Slide 6
+To address these gaps, we propose a hybrid blockchain framework for tamper-evident certificate verification.
+Our system combines MongoDB, IPFS and Hyperledger Fabric.
+MongoDB stores the operational certificate data, while IPFS generates a Unique Content Identifier (CID) based on the certificate content.
+Then we store the CID on the Hyperledger Fabric, instead of the certificate  itself.
+During verification, the system generates a new CID from the current certificate data and compares it with previously stored CID on blockchain.
+So, even if a single piece of information is changed, the CID changes and the system detect the tampering. 
+At the same time the holder gets to control the privacy of their certificate. 
+So, overall we provide a secure and tamper-evident certificate verification while maintaining privacy and institutional control. 
+
+Now, i would like to hand over to the next presenter. 
+
+
